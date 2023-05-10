@@ -1,0 +1,316 @@
+@import url(./reset.css);
+
+.container {
+  
+    padding: 20px;
+    margin: 20px;
+
+    display: flex;
+}
+#container01{
+    width: 1440px;
+    height: 56px;
+    flex-flow: row nowrap;
+    border-color: grey;
+    border: 1px;
+    background-color:  rgb(231, 231, 231);
+    
+}
+
+#container02{
+    width: 900px;
+    flex-flow: column wrap;
+    display: grid;
+    background-color: rgb(231, 231, 231);
+}
+
+#container03{
+    width: 470px;
+    flex-flow: column wrap;
+    position: absolute;
+    align-content: space-between;
+    gap: 20px 20px;
+    left:950px;
+    bottom: -82px;
+    background-color: rgb(231, 231, 231);
+   
+
+    
+}
+#menu{
+    width: 30px;
+    height: 30px;
+}
+#logo{
+    margin-left: 10px;
+  
+}
+#search{
+    margin-left: 400px;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+#botao{
+   background-color: red;
+   color: white;
+}
+#camera{
+    width: 30px;
+    height: 30px;
+    margin-left: 220px;
+}
+#sino{
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#foto{
+    width: 50px;
+    height: 50px;
+    
+}
+#video{
+    width: 880px;
+    height: 537px;
+    margin-bottom: 20px;
+}
+#channel{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+#inscrevase{
+   background-color: red;
+   color: white;
+   position: absolute;
+   top:760px;
+   left:120px;
+}
+#like{
+    width: 30px;
+    height: 30px;
+    margin-left: 250px ;
+}
+#unlike{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px ;
+}
+#share{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px ;
+}
+#download{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px ;
+}
+#texto{
+    background-color: rgb(238, 238, 238);
+    width: 800px;
+    text-transform: uppercase;
+    text-align: left;
+}
+#video01{
+    width: 160px;
+    height: 90px;
+    text-align:left ;
+}
+#texto01{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 18px;
+}
+#texto001{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 45px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#texto0001{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 75px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#item3{
+  justify-content: center;
+}
+#item22{
+    margin-bottom: 20px;
+}
+#video02{
+    width: 160px;
+    height: 90px;
+    text-align:left ;
+}
+#texto02{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 129px;
+}
+#texto002{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 170px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#texto0002{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 200px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#video03{
+    width: 160px;
+    height: 90px;
+    text-align:left ;
+}
+#texto03{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 242px;
+}
+#texto003{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 284px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#texto0003{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 314px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#video04{
+    width: 160px;
+    height: 90px;
+    text-align:left ;
+}
+#texto04{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 356px;
+}
+#texto004{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 388px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#texto0004{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 428px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#video05{
+    width: 160px;
+    height: 90px;
+    text-align:left ;
+}
+#texto05{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 470px;
+}
+#texto005{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 508px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+#texto0005{
+position: absolute;
+width: 196px;
+height: 32px;
+left: 186px;
+top: 545px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #515151;
+}
+
+
